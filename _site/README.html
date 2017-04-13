@@ -234,11 +234,18 @@ $(document).ready(function () {
 </div>
 
 
-<div id="voltammetry3.0" class="section level1">
-<h1>Voltammetry3.0</h1>
-<p>Files for exploring the possibilities of a digital-first (digtially native) textbook. After downloading the files to a folder on your computer, launch <code>R</code>, navigate to the folder and set it as your working directory, and run the following command in the console:</p>
+<div id="exploring-r-markdown-websites-with-stock-reports" class="section level1">
+<h1>Exploring R Markdown Websites with Stock reports</h1>
+<p>Live website is here:</p>
+<p><a href="https://beta.rstudioconnect.com/content/2675/" class="uri">https://beta.rstudioconnect.com/content/2675/</a></p>
+<p>Example code and info for R Markdown Website with Stock reports.</p>
+<p>Requires the following packages from CRAN:</p>
+<pre class="r"><code>install.packages(c(&quot;quantmod&quot;, &quot;DT&quot;, rmarkdown&quot;, &quot;flexdashboard&quot;))</code></pre>
+<p>An up-to-date version of RStudio is also recommended.</p>
+<p>R 3.2.2 used for examples.</p>
+<p>Run the following command in the console with folder as WD with RMD files:</p>
 <pre><code>rmarkdown::render_site()</code></pre>
-<p>When complete, you should see a <code>_Site</code> folder in your directory. To view the website, find the <code>index.html</code> file in the <code>_site</code> folder and view it in your browser. If you edit and change any of the <code>.Rmd</code> files, you can use</p>
+<p>After running, you should see a <code>_Site</code> folder in your directory. Then open the <code>index.html</code> file in the <code>_site</code> folder and view it in your browser to see the website. If you edit and change any of the <code>.Rmd</code> files, you can use</p>
 <pre><code>rmarkdown::render_site(&quot;filename.Rmd&quot;)</code></pre>
 <p>to update the corresponding <code>.html</code> files. If you wish to add a new page to the website, create it as a <code>.Rmd</code> file, add it to appropriate place in the <code>_site.yml</code> file, and refresh the whole website using the command</p>
 <pre><code>rmarkdown::render_site()</code></pre>

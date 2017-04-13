@@ -8,7 +8,7 @@ output:
 
 Below are a few key notes:
 
-* RMD files need to the right metadata section.
+* RMD files need to have the right metadata section.
 * _site.yml is an important file.
 * Knit processing.
 * Flexdashboard causes some issues and probably best to use either or for creating your RMD website.
@@ -53,5 +53,5 @@ knitr::include_app("https://beta.rstudioconnect.com/philbowsher/050-kmeans-examp
   
 ```
 
-Need to turn off jekyll for github.
+Need to turn off Jekyll for github.
 

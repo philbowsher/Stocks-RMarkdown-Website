@@ -1,11 +1,15 @@
 # Exploring R Markdown Websites with Stock reports
 
-Example code and links R Markdown Websites with Stock reports.
+Live website is here: 
+
+https://beta.rstudioconnect.com/content/2675/
+
+Example code and info for R Markdown Website with Stock reports.
 
 Requires the following packages from CRAN:
 
 ```r
-install.packages(c("quantmod""rmarkdown", "flexdashboard"))
+install.packages(c("quantmod", "DT", rmarkdown", "flexdashboard"))
 ``` 
 
 An up-to-date version of RStudio is also recommended.
